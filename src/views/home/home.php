@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Mon Site Web</title>
-    <link rel="stylesheet" href="homeStyles.css">
+    <link rel="stylesheet" href="../../assets/css/HomeStyles.css">
 </head>
 <body>
 
