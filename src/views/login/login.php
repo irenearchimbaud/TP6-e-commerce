@@ -1,9 +1,16 @@
 <?php
-    session_start();
+    if (session_status() === PHP_SESSION_NONE) {
+        session_start();
+    }
     require_once 'logic.php';
+
     $error = $_SESSION['error'] ?? null;
     unset($_SESSION['error']);
+
+    $success = $_SESSION['success'] ?? null;
+    unset($_SESSION['success']);
 ?>
+
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -15,25 +22,21 @@
 </head>
 <body>
     <div class="container">
-    
-    <script>
-    <?php if ($error): ?>
-        console.error(<?= json_encode($error); ?>);
-    <?php else: ?>
-        console.log("Aucune erreur détectée.");
-    <?php endif; ?>
-</script>
-
-<?php if ($error): ?>
-    <div class="error-message">
-        <?= htmlspecialchars($error); ?>
-    </div>
-<?php endif; ?>
-
         <div class="tabs">
             <div class="tab <?php echo empty($_POST['form_type']) || $_POST['form_type'] === 'login' ? 'active' : ''; ?>" onclick="showForm('login')">Connexion</div>
             <div class="tab <?php echo isset($_POST['form_type']) && $_POST['form_type'] === 'register' ? 'active' : ''; ?>" onclick="showForm('register')">Inscription</div>
         </div>
+        <?php if ($error): ?>
+            <div class="error-message">
+                <?= htmlspecialchars($error); ?>
+            </div>
+        <?php endif; ?>
+
+        <?php if ($success): ?>
+            <div class="success-message">
+                <?= htmlspecialchars($success); ?>
+            </div>
+        <?php endif; ?>
 
         <div class="form-container">
             <form method="POST" action="logic.php" class="<?php echo empty($_POST['form_type']) || $_POST['form_type'] === 'login' ? '' : 'hidden'; ?>" id="loginForm">
