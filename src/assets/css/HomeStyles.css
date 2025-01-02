@@ -1,0 +1,73 @@
+
+body {
+    height: 100%; 
+    margin: 0; 
+    font-family: 'Arial', sans-serif; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    background-color: white; 
+}
+
+.header {
+    text-align: center; 
+    margin-top: 50px;
+}
+
+
+.button-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    margin-top: 30px; 
+}
+
+
+button {
+    padding: 12px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    margin: 15px 0; 
+    font-size: 18px; 
+}
+
+
+.Produit-Bouton {
+    background: #f39c12;
+    color: white; 
+    width: 250px; 
+    font-size: 20px; 
+}
+
+.Produit-Bouton:hover {
+    background: #e67e22; 
+    transform: scale(1.05); 
+}
+
+
+.login-Bouton {
+    background: #2aa72a; 
+    color: white; 
+    width: 150px; 
+}
+
+.login-Bouton:hover {
+    background: #45a049; 
+    transform: scale(1.05); 
+}
+
+
+.Création-button {
+    background: #008CBA; 
+    color: white; 
+    width: 150px;
+}
+
+.Création-button:hover {
+    background: #007bb5; 
+    transform: scale(1.05); 
+}
