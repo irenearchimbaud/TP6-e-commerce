@@ -8,7 +8,7 @@ try {
     $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
-    header("Location: home.php");
+    header("Location: ./views/home/home.php");
     exit; 
     
 } catch (PDOException $e) {
