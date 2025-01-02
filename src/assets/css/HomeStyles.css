@@ -36,14 +36,14 @@ button {
 }
 
 
-.Produit-Bouton {
+.produit-Bouton {
     background: #f39c12;
     color: white; 
     width: 250px; 
     font-size: 20px; 
 }
 
-.Produit-Bouton:hover {
+.produit-Bouton:hover {
     background: #e67e22; 
     transform: scale(1.05); 
 }
@@ -61,13 +61,13 @@ button {
 }
 
 
-.Création-button {
+.creation-button {
     background: #008CBA; 
     color: white; 
     width: 150px;
 }
 
-.Création-button:hover {
+.creation-button:hover {
     background: #007bb5; 
     transform: scale(1.05); 
 }
