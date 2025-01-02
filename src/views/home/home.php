@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Mon Site Web</title>
-    <link rel="stylesheet" href="HomeStyles.css">
+    <link rel="stylesheet" href="homeStyles.css">
 </head>
 <body>
 
@@ -11,18 +11,18 @@
 
     <div class="button-container">
         
-        <div class="Login">
+        <div class="login">
             <button class="login-Bouton" type="submit">Login</button>
         </div>
         
         <
-        <div class="Création de compte">
-            <button class="Création-button" type="submit">Création</button>
+        <div class="creation de compte">
+            <button class="creation-button" type="submit">Création</button>
         </div>
         
         
-        <div class="Voir Produit">
-            <button class="Produit-Bouton" type="submit">Produit</button>
+        <div class="Voir produit">
+            <button class="produit-Bouton" type="submit">Produit</button>
         </div>
     </div>
 </body>
