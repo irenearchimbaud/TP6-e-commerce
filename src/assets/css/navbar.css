@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     background-color: #333;
     padding: 10px 20px;
-    z-index: 1000; /* Assure que la barre reste au-dessus des autres éléments */
+    z-index: 1000;
   }
    
   nav a {
@@ -32,5 +32,5 @@ body {
   }
    
   main {
-    padding-top: 60px; /* Compense la hauteur de la barre de navigation */
+    padding-top: 60px;
   }
