@@ -26,55 +26,7 @@
                             <a href="#">Acceuil</a>
                         </li>
                         <li class="nav-link" style="--i: .85s">
-                            <a href="#">Catégories<i class="fas fa-caret-down"></i></a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li class="dropdown-link">
-                                        <a href="#">Nike</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Adidas</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">New Balance<i class="fas fa-caret-down"></i></a>
-                                        <div class="dropdown second">
-                                            <ul>
-                                                <li class="dropdown-link">
-                                                    <a href="#">NB 740</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">NB 9060</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">NB 574</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
-                                                    <div class="dropdown second">
-                                                        <ul>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">NB 1000</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">NB 2080</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">NB 220</a>
-                                                            </li>
-                                                            <div class="arrow"></div>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <div class="arrow"></div>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Puma</a>
-                                    </li>
-                                    <div class="arrow"></div>
-                                </ul>
-                            </div>
+                            <a href="#">Produits<i class="fas fa-caret-down"></i></a>
                         </li>
                         <li class="nav-link" style="--i: 1.1s">
                             <a href="#">Services<i class="fas fa-caret-down"></i></a>
@@ -128,14 +80,13 @@
                             </div>
                         </li>
                         <li class="nav-link" style="--i: 1.35s">
-                            <a href="#">A Propos</a>
+                            <a href="#">Panier</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="log-sign" style="--i: 1.8s">
-                    <a href="#" class="btn transparent">Log in</a>
-                    <a href="#" class="btn solid">Sign up</a>
+                    <a href="#" class="btn transparent">Déconnexion</a>
                 </div>
             </div>
 
