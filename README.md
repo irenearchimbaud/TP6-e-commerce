@@ -13,6 +13,8 @@ Lancer le front via: http://localhost:8080/
 
 Lancer phpMyAdmin via: http://localhost:8081/index.php?route=/sql&pos=0&db=TP6-e-commerce&table=users
 
+executer: docker exec -i mysql-db mysql -u root -proot TP6-e-commerce < ./db/modifications.sql dans l'invite de commande en se plançant au préalable dans le dossier du projet
+
 ## Organisation des fichiers
 
 Voici où placer les différents types de fichiers dans le projet :
