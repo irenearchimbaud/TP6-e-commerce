@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notre Collection - Sneakers</title>
     <link href="../../assets/css/products.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="../../assets/css/navbar.css">
+    <link rel="stylesheet" href="../../assets/css/footer.css">
 <body>
-    <header class="site-header">
-        <h1>Notre Collection de Sneakers</h1>
-    </header>
+
+    <?php 
+        include_once("../../assets/models/navbar.php")
+    ?>
 
     <main class="products-grid">
         <article class="product-card">
@@ -103,6 +105,10 @@
             </div>
         </article>
     </main>
+
+    <?php 
+        include_once("../../assets/models/footer.php")
+    ?>
 </body>
 
 </html>

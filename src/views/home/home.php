@@ -6,8 +6,14 @@
     <title>Accueil - Nouveautés</title>
     <link rel="stylesheet" href="../../assets/css/HomeStyles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/css/navbar.css">
+    <link rel="stylesheet" href="../../assets/css/footer.css">
 </head>
 <body>
+
+    <?php 
+        include_once("../../assets/models/navbar.php")
+    ?>
 
     <div class="hero-section">
         <div class="hero-content">
@@ -34,6 +40,10 @@
             </div>
         </div>
     </div>
+
+    <?php 
+        include_once("../../assets/models/footer.php")
+    ?>
 
 </body>
 </html>
