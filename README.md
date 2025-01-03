@@ -45,3 +45,19 @@ Voici où placer les différents types de fichiers dans le projet :
 
 - **Fichier principal** : Le point d'entrée de l'application est `src/index.php`.  
   Ce fichier redirige vers les vues appropriées et gère la logique de routage.
+
+## Test de la base de données des produits
+
+``` SQL
+INSERT INTO products (name, description, pointure, modele) VALUES
+('Nike Air Max 2023', 'Chaussures de sport confortables', 42, 'Air Max'),
+('Adidas Ultraboost', 'Chaussures idéales pour le running', 43, 'Ultraboost'),
+('Puma RS-X', 'Design moderne et couleurs vives', 41, 'RS-X'),
+('New Balance 574', 'Style classique pour un usage quotidien', 44, '574'),
+('Nike Zoom', 'Performance optimale pour les coureurs', 42, 'Zoom'),
+('Adidas NMD', 'Style urbain avec une touche moderne', 43, 'NMD'),
+('Converse All Star', 'Chaussures iconiques et intemporelles', 40, 'All Star'),
+('Reebok Classic', 'Modèle classique pour un look décontracté', 42, 'Classic'),
+('Vans Old Skool', 'Chaussures skate rétro avec style', 41, 'Old Skool'),
+('Asics Gel-Kayano', 'Chaussures de sport avec excellent support', 44, 'Gel-Kayano');
+```
