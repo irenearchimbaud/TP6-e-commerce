@@ -9,26 +9,28 @@
 </head>
 <body>
 
-    <div class="hero-section">
-        <div class="hero-content">
+    <!-- Section d'accueil avec image de fond -->
+    <div class="section-accueil">
+        <div class="contenu-accueil">
             <h1>Collection Exclusive</h1>
             <p>Style. Confort. Performance.</p>
-            <button class="produit-Bouton">Voir Produits</button>
+            <button class="bouton-produit">Voir Produits</button>
         </div>
     </div>
 
-    <div class="product-section">
+    <!-- Section des nouveautés produits -->
+    <div class="section-produits">
         <h2>Nouveautés</h2>
-        <div class="product-gallery">
-            <div class="product-card">
+        <div class="galerie-produits">
+            <div class="carte-produit">
                 <img src="../../assets/images/NIKE+DUNK+LOW+RETRO.png" alt="Produit 1">
                 <p>Nouvelle Tendance</p>
             </div>
-            <div class="product-card">
+            <div class="carte-produit">
                 <img src="../../assets/images/NIKE+AIR+MAX+PLUS.png" alt="Produit 2">
                 <p>Sport & Mode</p>
             </div>
-            <div class="product-card">
+            <div class="carte-produit">
                 <img src="../../assets/images/custom-nike-dunk-low-by-you-su24.png" alt="Produit 3">
                 <p>Édition Limitée</p>
             </div>
