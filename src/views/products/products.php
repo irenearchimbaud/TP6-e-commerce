@@ -79,7 +79,7 @@
                 <span class="discount-badge">-15%</span>
             </div>
             <div class="product-info">
-                <h2>Nike NMD</h2>
+                <h2>Nike Toute neuve</h2>
                 <p class="product-category">Lifestyle</p>
                 <div class="product-price">
                     <span class="current-price">119.99 €</span>
