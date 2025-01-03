@@ -19,7 +19,7 @@
         <div class="hero-content">
             <h1>Collection Exclusive</h1>
             <p>Style. Confort. Performance.</p>
-            <button class="produit-Bouton">Voir Produits</button>
+            <a class="produit-Bouton" href="../products/products.php">Voir Produits</a>
         </div>
     </div>
 
