@@ -178,7 +178,7 @@ section{
     height: 11px;
     top: -5.5px;
     left: 32px;
-    background-color: #fff;
+    background-color: #d8d8d8;
     transform: rotate(45deg);
     cursor: pointer;
     transition: .3s;
